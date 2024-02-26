@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=1
+    if (a===0) {console.log(true)}
+    else {console.log(false)}
+
+    a=0
+    if (a===0) {console.log(true)}
+    else {console.log(false)}
+
+    a=-3
+    if (a===0) {console.log(true)}
+    else {console.log(false)}
+
+
+
+    let time=30
+
+    if (time>0 &&time<16){console.log('First part an hour')}
+    else if (time>15&&time<31){console.log('Second part an hour')}
+
+    else if (time>30&& time<46){console.log('3D part an hour')}
+
+    else if (time>45&&time<60){console.log('4Th part an hour')}
+
+
+    let date=1
+    if (date>0&& date<11) {console.log('mounth 1st decade')}
+    else if (date>10 && date<21){console.log('mounth 2st decade')}
+    else if (date>20 && date<32){console.log('mounth 3d decade')}
+
+
+    let day=7
+    switch (day) {
+        case 1:
+            console.log('Monday');
+            break;
+        case 2:
+            console.log('Tuesday');
+            break;
+        case 3:
+            console.log('Wednesday');
+            break;
+        case 4:
+            console.log('Thursday');
+            break;
+        case 5:
+            console.log('Friday');
+            break;
+        case 6:
+            console.log('Saturday');
+            break;
+
+        case 7:
+            console.log('Sunday');
+            break;
+
+
+
+    }
+
+
+ let a1=666
+ let b2=666
+
+ if (a1>b2){console.log('a1 is max-one')}
+ else if(b2>a1) {console.log('b2 is max-one')}
+ else if (a1===b2) {console.log('a1 is equal to b2')}
+
+
+ let x= ' ' || 'default'
+
+
+ let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+if(coursesAndDurationArray[0].monthDuration>5) {console.log('Суппер')}
+if(coursesAndDurationArray[1].monthDuration>5) {console.log('Суппер')}
+if(coursesAndDurationArray[2].monthDuration>5) {console.log('Суппер')}
+if(coursesAndDurationArray[3].monthDuration>5) {console.log('Суппер')}
+if(coursesAndDurationArray[4].monthDuration>5) {console.log('Суппер')}
+
+
+
+</script>
+</body>
+</html>
